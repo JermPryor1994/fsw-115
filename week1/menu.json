@@ -1,5 +1,67 @@
 {
-    "menu": [
-        "app"
+    "appetizers":[
+        {
+            "name": "P-Cheese Rolls",
+            "ingredients": ["pastrami", "cream-cheese"],
+            "description": "Thinly sliced pastrami rolled tightly around our premium cream-cheese. Portion sizes are plates of 5, 10, or 15. Price is per 5 rolls."
+        },
+        {
+            "name": "Breadsticks",
+            "ingredients": ["wheat-bread", "garlic-sauce"],
+            "description": "Our custom wheat bread and sauce are made here, in shop, every day. Dish includes 10 had rolled breadsticks with a bowl of our family secret garlic sauce."
+        }
+    ],
+    "cold-sandwiches":[
+        {
+            "name": "Packed Cali",
+            "ingredients": ["wheat-bread", "lettuce", "mayo", "mustard", "provalone-cheese", "spiced-pastrami"],
+            "description": "A sandwich perfected through generations. The first sandwich to hit the menu and the base of our legacy. Custom spiced pastrami, provalone, lettuce and your choice of condiments."
+        },
+        {
+            "name": "The Big Club",
+            "ingredients": ["wheat-bread", "lettuce", "tomato", "bacon", "choice-of-cheese", "mayo"],
+            "description": "The biggest sandwich on our menu. Thick sliced smoked bacon with lettuce, crunchy tomato and your choice of cheese."
+        },
+        {
+            "name": "Plain Jane",
+            "ingredients": ["white-bread", "choice-of-meat", "choice-of-cheese"],
+            "description": "All up to you. Craft the perfect sandwich for you with a wide selection of meats and cheeses."
+        }
+    ],
+    "hot-sandwiches": [
+        {
+            "name": "Steamin Dreams",
+            "ingredients": ["toasted white-bread", "pastrami", "bacon", "provalone-cheese", "mayo", "mustard"],
+            "description": "Float away with this signature hot sandwich. Filled with goodness and cooked in our hot-press."
+        },
+        {
+            "name": "4-Cheese Please",
+            "ingredients": ["toasted white-bread", "pastrami", "cheddar-cheese", "provalone-cheese", "parmesan-cheese", "american-cheese"],
+            "description": "All your cheese needs between two slices, as long as you ask nicely."
+        }
+    ],
+    "desserts": [
+        {
+            "name": "Hot Fudge Sunday",
+            "ingredients": ["vanilla-ice-cream", "hot-fudge", "maraschino-cherry"],
+            "description": "Indulge in our handmade ice cream, covered in hot fudge, topped with a delicious cherry."
+        },
+        {
+            "name": "Fresh Brownie",
+            "ingredients": ["fudge-brownie", "blonde-brownie", "chocolate-chunk"],
+            "description": "Try our in house recipie brownies. Your choice between Fudge, Blonde, or Chunky Chocolate!"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Ice Cold Soda",
+            "ingredients": ["cola", "sprite", "root-beer", "orange", "cream-soda", "energy-drinks"],
+            "description": "Please select from our wide range of beverages. Free refills!"
+        },
+        {
+            "name": "Adult Beverages",
+            "ingredients": ["beer", "wine", "signature-home-brew"],
+            "description": "Besides all your favorite beer and wine choices, we have our very own craft brew in many flavors. Try one today!"
+        }
     ]
 }
