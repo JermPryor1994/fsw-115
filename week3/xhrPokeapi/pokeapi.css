@@ -1,0 +1,16 @@
+body{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pokemon{
+    background-color: rgb(118, 238, 202);
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+}
