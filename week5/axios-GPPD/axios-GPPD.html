@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Axios GET</title>
+        <link rel="stylesheet" href="axios-GPPD.css"/>
+        
+    </head>
+    <body>
+        <h1>Team To-Do List</h1>
+        <div id="todobox">
+            <h2>Here, you can add to the To-Do list!</h2>
+            <form id="inputfield">
+                <h3>Please fill in the blanks</h3>
+                Title:<br><input id = "title" type="text" placeholder="Title"/><br>
+                Price:<br><input id= "price" type="text" placeholder="Price"/><br>
+                Description:<br><input id="description" type="type" placeholder="Description"/><br>
+                Completed?<input id="completed" type="checkbox">
+                <button id="submit">Submit</button>
+            </form>
+            <div id="listbox">
+                <h2>To-Dos show up here!</h2>
+                <ul id="todolist">
+
+                </ul>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+        <script src="axios-GPPD.js"></script>
+    </body>
+</html>
