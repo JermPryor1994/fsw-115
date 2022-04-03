@@ -1,0 +1,38 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+    grid-column: 1/5;
+    text-align: center;
+}
+.dataContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: darkgoldenrod;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.dataBox{
+    background-color: darksalmon;
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    .dataContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h3{
+        grid-column: 1/3;
+    }
+}
