@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Build Your Character!</title>
+        <link rel="stylesheet" href="capstone.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Create your own D&D Character!</h1>
+            <h2>Choose your options wisely..</h2>
+        </header>
+        <form id="characterBuilder">
+            <span>
+                <label for="characterName">Name your Character:</label>
+                <input type="text" id="characterName" placeholder="Be Creative!"/>
+            </span>
+            <span>
+                <label for="classSelection">Choose your Class:</label>
+                <select id="classSelection" class="selector" ></select>
+            </span>
+            <span>
+                <label for="proficienciesSelection">Choose your Proficiency:</label>
+                <select id="proficienciesSelection" class="selector" ></select>
+            </span>
+            <span>
+                <label for="equipmentSelection">Choose your Equipment:</label>
+                <select id="equipmentSelection" class="selector" ></select>
+            </span>
+            <button id="createButton">Spawn your Character!</button>
+        </form>
+        <div id="characterCards">
+
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+    <script src="capstone.js"></script>
+</html>
